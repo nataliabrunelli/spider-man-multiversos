@@ -1,0 +1,38 @@
+a.link-button{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #fff;
+  padding: 3px 10px;
+}
+
+a.link-button .icon{
+  width: 32px;
+  height: 32px;
+  background-color: var(--primary-color);
+  background-clip: content-box;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+Hack para fazer a seta: tag sem tamanho com borda!
+Dá cor para o lado que quer manter e transparente para os outros.
+PRECISA deixar em TODOS os lados mesmo assim, para os demais achatarem o que fica */
+a.link-button .icon .play-icon{
+  border:solid 7px #fff;
+  width:0;
+  height: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  margin-left: 7px;
+}
+
+a.link-button .label{
+  margin: 0 10px;
+}
