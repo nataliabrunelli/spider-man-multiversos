@@ -1,9 +1,9 @@
-@import './reset.css';
-@import './global.css';
-@import './components/_navigator.css';
-@import './components/_pills.css';
-@import './components/_link-button.css';
-@import './components/_gallery.css';
+@import "./reset.css";
+@import "./global.css";
+@import "./componentes/navigator.css";
+@import "./componentes/pills.css";
+@import "./componentes/link-button.css";
+@import "./componentes/gallery.css";
 
 .s-wrapper {
   min-height: 100vh;
