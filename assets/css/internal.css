@@ -1,9 +1,9 @@
-@import url('./reset.css');
-@import url('./global.css');
-@import url('./components/_navigator.css');
-@import url('./components/_pills.css');
-@import url('./components/_link-button.css');
-@import url('./components/_gallery.css');
+@import './reset.css';
+@import './global.css';
+@import './components/_navigator.css';
+@import './components/_pills.css';
+@import './components/_link-button.css';
+@import './components/_gallery.css';
 
 .s-wrapper {
   min-height: 100vh;
